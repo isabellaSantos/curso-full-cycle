@@ -8,7 +8,7 @@ const config = {
   host: 'db',
   user: 'root',
   password: 'root',
-  database:'nodedb'
+  database:'node-nginx-db'
 };
 
 var connection = mysql.createConnection(config)
