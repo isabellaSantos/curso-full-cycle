@@ -6,7 +6,7 @@ git clone https://github.com/isabellaSantos/curso-full-cycle.git
 ```
 Acesse a pasta do desafio Nginx com Node.js:
 ```
-cd docker-node-nginx-challenge
+cd curso-full-cycle/docker-node-nginx-challenge
 ```
 E rode o docker-compose
 ```

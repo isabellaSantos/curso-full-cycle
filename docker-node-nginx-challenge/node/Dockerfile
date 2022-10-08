@@ -2,7 +2,9 @@ FROM node:15
 
 WORKDIR /usr/src/app
 
-RUN apt-get update && apt-get install -y wget
+COPY package*.json ./
+
+RUN npm ci --only=production
 
 COPY . .
 
